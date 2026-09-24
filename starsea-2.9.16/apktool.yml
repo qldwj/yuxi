@@ -1,0 +1,19 @@
+version: 3.0.3
+apkFileName: 星海助手_2.9.16.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 23
+  targetSdkVersion: 34
+versionInfo:
+  versionCode: 66
+  versionName: 2.9.16
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- png
+- so
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

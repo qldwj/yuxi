@@ -1,0 +1,34 @@
+.class public abstract Le2/v0;
+.super Ljava/lang/Object;
+.source "r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa"
+
+
+# static fields
+.field public static final a:J
+
+.field public static final synthetic b:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    const/high16 v0, 0x7fc00000    # Float.NaN
+
+    .line 2
+    .line 3
+    invoke-static {v0, v0}, Le2/x0;->a(FF)J
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-wide v0
+
+    .line 7
+    sput-wide v0, Le2/v0;->a:J
+
+    .line 8
+    .line 9
+    return-void
+.end method
