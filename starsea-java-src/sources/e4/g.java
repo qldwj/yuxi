@@ -1,0 +1,18 @@
+package e4;
+
+import android.content.ClipDescription;
+import android.net.Uri;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+public interface g {
+    Uri b();
+
+    void c();
+
+    Uri d();
+
+    Object e();
+
+    ClipDescription getDescription();
+}

@@ -1,0 +1,19 @@
+package androidx.media3.common.audio;
+
+import androidx.media3.common.PlaybackParameters;
+import androidx.media3.common.util.UnstableApi;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+@UnstableApi
+public interface AudioProcessorChain {
+    PlaybackParameters applyPlaybackParameters(PlaybackParameters playbackParameters);
+
+    boolean applySkipSilenceEnabled(boolean z9);
+
+    AudioProcessor[] getAudioProcessors();
+
+    long getMediaDuration(long j10);
+
+    long getSkippedOutputFrameCount();
+}

@@ -1,0 +1,40 @@
+package org.chromium.support_lib_boundary;
+
+import android.net.Uri;
+import android.webkit.WebChromeClient;
+import android.webkit.WebViewClient;
+import java.lang.reflect.InvocationHandler;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+public interface WebViewProviderBoundaryInterface {
+    InvocationHandler addDocumentStartJavaScript(String str, String[] strArr);
+
+    void addWebMessageListener(String str, String[] strArr, InvocationHandler invocationHandler);
+
+    InvocationHandler[] createWebMessageChannel();
+
+    InvocationHandler getProfile();
+
+    WebChromeClient getWebChromeClient();
+
+    WebViewClient getWebViewClient();
+
+    InvocationHandler getWebViewRenderer();
+
+    InvocationHandler getWebViewRendererClient();
+
+    void insertVisualStateCallback(long j10, InvocationHandler invocationHandler);
+
+    boolean isAudioMuted();
+
+    void postMessageToMainFrame(InvocationHandler invocationHandler, Uri uri);
+
+    void removeWebMessageListener(String str);
+
+    void setAudioMuted(boolean z9);
+
+    void setProfile(String str);
+
+    void setWebViewRendererClient(InvocationHandler invocationHandler);
+}

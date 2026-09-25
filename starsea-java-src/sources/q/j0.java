@@ -1,0 +1,16 @@
+package q;
+
+import android.content.res.Resources;
+import android.widget.ThemedSpinnerAdapter;
+import java.util.Objects;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+public abstract class j0 {
+    public static void a(ThemedSpinnerAdapter themedSpinnerAdapter, Resources.Theme theme) {
+        if (Objects.equals(themedSpinnerAdapter.getDropDownViewTheme(), theme)) {
+            return;
+        }
+        themedSpinnerAdapter.setDropDownViewTheme(theme);
+    }
+}

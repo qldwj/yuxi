@@ -1,0 +1,11 @@
+package androidx.media3.common;
+
+import android.view.SurfaceView;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+public abstract /* synthetic */ class d {
+    public static /* synthetic */ SurfaceView a(int i2, int i10) {
+        return null;
+    }
+}

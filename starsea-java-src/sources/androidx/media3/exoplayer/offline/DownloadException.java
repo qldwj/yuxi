@@ -1,0 +1,17 @@
+package androidx.media3.exoplayer.offline;
+
+import androidx.media3.common.util.UnstableApi;
+import java.io.IOException;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+@UnstableApi
+public final class DownloadException extends IOException {
+    public DownloadException(String str) {
+        super(str);
+    }
+
+    public DownloadException(Throwable th) {
+        super(th);
+    }
+}

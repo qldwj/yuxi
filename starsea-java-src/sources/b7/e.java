@@ -1,0 +1,11 @@
+package b7;
+
+import javax.annotation.CheckForNull;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+public interface e {
+    Object apply(Object obj);
+
+    boolean equals(@CheckForNull Object obj);
+}

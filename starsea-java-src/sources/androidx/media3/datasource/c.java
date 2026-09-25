@@ -1,0 +1,12 @@
+package androidx.media3.datasource;
+
+import java.util.Collections;
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+public abstract /* synthetic */ class c {
+    public static Map a(DataSource dataSource) {
+        return Collections.EMPTY_MAP;
+    }
+}

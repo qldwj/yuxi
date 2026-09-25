@@ -1,0 +1,34 @@
+package l3;
+
+import android.R;
+
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+public abstract class q {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final int[] f9871a = {R.attr.orientation, R.attr.id, R.attr.visibility, R.attr.layout_width, R.attr.layout_height, R.attr.layout_marginLeft, R.attr.layout_marginTop, R.attr.layout_marginRight, R.attr.layout_marginBottom, R.attr.maxWidth, R.attr.maxHeight, R.attr.minWidth, R.attr.minHeight, R.attr.alpha, R.attr.transformPivotX, R.attr.transformPivotY, R.attr.translationX, R.attr.translationY, R.attr.scaleX, R.attr.scaleY, R.attr.rotation, R.attr.rotationX, R.attr.rotationY, R.attr.layout_marginStart, R.attr.layout_marginEnd, R.attr.translationZ, R.attr.elevation, 2130968627, 2130968679, 2130968680, 2130968681, 2130968741, 2130968869, 2130968951, 2130969049, 2130969050, 2130969051, 2130969052, 2130969053, 2130969054, 2130969055, 2130969056, 2130969057, 2130969058, 2130969059, 2130969060, 2130969061, 2130969063, 2130969064, 2130969065, 2130969066, 2130969067, 2130969188, 2130969189, 2130969190, 2130969191, 2130969192, 2130969193, 2130969194, 2130969195, 2130969196, 2130969197, 2130969198, 2130969199, 2130969200, 2130969201, 2130969202, 2130969203, 2130969204, 2130969205, 2130969206, 2130969207, 2130969208, 2130969209, 2130969210, 2130969211, 2130969212, 2130969213, 2130969214, 2130969215, 2130969216, 2130969217, 2130969218, 2130969219, 2130969220, 2130969221, 2130969222, 2130969223, 2130969224, 2130969225, 2130969226, 2130969227, 2130969228, 2130969229, 2130969231, 2130969232, 2130969233, 2130969234, 2130969235, 2130969236, 2130969237, 2130969238, 2130969379, 2130969380, 2130969424, 2130969432, 2130969753, 2130969755, 2130969771};
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public static final int[] f9872b = {R.attr.orientation, R.attr.padding, R.attr.paddingLeft, R.attr.paddingTop, R.attr.paddingRight, R.attr.paddingBottom, R.attr.visibility, R.attr.maxWidth, R.attr.maxHeight, R.attr.minWidth, R.attr.minHeight, R.attr.paddingStart, R.attr.paddingEnd, R.attr.elevation, 2130968679, 2130968680, 2130968681, 2130968741, 2130968866, 2130968869, 2130969049, 2130969050, 2130969051, 2130969052, 2130969053, 2130969054, 2130969055, 2130969056, 2130969057, 2130969058, 2130969059, 2130969060, 2130969061, 2130969063, 2130969064, 2130969065, 2130969066, 2130969067, 2130969180, 2130969188, 2130969189, 2130969190, 2130969191, 2130969192, 2130969193, 2130969194, 2130969195, 2130969196, 2130969197, 2130969198, 2130969199, 2130969200, 2130969201, 2130969202, 2130969203, 2130969204, 2130969205, 2130969206, 2130969207, 2130969208, 2130969209, 2130969210, 2130969211, 2130969212, 2130969213, 2130969214, 2130969215, 2130969216, 2130969217, 2130969218, 2130969219, 2130969220, 2130969221, 2130969222, 2130969223, 2130969224, 2130969225, 2130969226, 2130969227, 2130969228, 2130969229, 2130969231, 2130969232, 2130969233, 2130969234, 2130969235, 2130969236, 2130969237, 2130969238, 2130969241};
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public static final int[] f9873c = {2130968636, 2130968914, 2130968915, 2130968916, 2130968917, 2130968918, 2130968919, 2130968921, 2130968922};
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public static final int[] f9874d = {R.attr.orientation, R.attr.layout_width, R.attr.layout_height, R.attr.layout_marginLeft, R.attr.layout_marginTop, R.attr.layout_marginRight, R.attr.layout_marginBottom, R.attr.layout_marginStart, R.attr.layout_marginEnd, 2130968679, 2130968680, 2130968681, 2130968741, 2130968869, 2130969188, 2130969189, 2130969190, 2130969191, 2130969192, 2130969193, 2130969194, 2130969195, 2130969196, 2130969197, 2130969198, 2130969199, 2130969200, 2130969201, 2130969202, 2130969203, 2130969204, 2130969205, 2130969206, 2130969207, 2130969208, 2130969209, 2130969210, 2130969211, 2130969212, 2130969213, 2130969214, 2130969215, 2130969216, 2130969217, 2130969218, 2130969220, 2130969221, 2130969222, 2130969223, 2130969224, 2130969225, 2130969226, 2130969227, 2130969228, 2130969229, 2130969231, 2130969232, 2130969233, 2130969234, 2130969235, 2130969236, 2130969237, 2130969238, 2130969326, 2130969331, 2130969336, 2130969340};
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public static final int[] f9875e = {2130968627, 2130968951, 2130969378, 2130969380, 2130969424, 2130969753};
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    public static final int[] f9876f = {R.attr.visibility, R.attr.alpha, 2130969219, 2130969379, 2130969771};
+
+    /* JADX INFO: renamed from: g, reason: collision with root package name */
+    public static final int[] f9877g = {R.attr.id, 2130968870};
+
+    /* JADX INFO: renamed from: h, reason: collision with root package name */
+    public static final int[] f9878h = {R.attr.transformPivotX, R.attr.transformPivotY, R.attr.translationX, R.attr.translationY, R.attr.scaleX, R.attr.scaleY, R.attr.rotation, R.attr.rotationX, R.attr.rotationY, R.attr.translationZ, R.attr.elevation};
+
+    /* JADX INFO: renamed from: i, reason: collision with root package name */
+    public static final int[] f9879i = {2130968870, 2130969462, 2130969463, 2130969464, 2130969465};
+}

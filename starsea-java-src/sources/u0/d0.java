@@ -1,0 +1,27 @@
+package u0;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+public abstract class d0 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final float f15121a = (float) 28.0d;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public static final float f15122b = (float) 24.0d;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public static final float f15123c = (float) 40.0d;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public static final float f15124d = (float) 32.0d;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public static final float f15125e = (float) 2.0d;
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    public static final float f15126f = (float) 52.0d;
+
+    /* JADX INFO: renamed from: g, reason: collision with root package name */
+    public static final float f15127g = (float) 16.0d;
+}

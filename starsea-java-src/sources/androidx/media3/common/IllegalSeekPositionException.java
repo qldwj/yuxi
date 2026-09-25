@@ -1,0 +1,18 @@
+package androidx.media3.common;
+
+import androidx.media3.common.util.UnstableApi;
+
+/* JADX INFO: compiled from: r8-map-id-b2022710361550930af238f1d63db3afb833aa2031d23bf31bcf974bb7c3ceaa */
+/* JADX INFO: loaded from: /workspace/starsea/classes.dex */
+@UnstableApi
+public final class IllegalSeekPositionException extends IllegalStateException {
+    public final long positionMs;
+    public final Timeline timeline;
+    public final int windowIndex;
+
+    public IllegalSeekPositionException(Timeline timeline, int i2, long j10) {
+        this.timeline = timeline;
+        this.windowIndex = i2;
+        this.positionMs = j10;
+    }
+}
